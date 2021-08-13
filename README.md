@@ -1,4 +1,4 @@
-# Lagrange
+# Lagranjoon
 
 Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/). For a guide on how to start a blog or personal website using Jekyll and GitHub Pages, please check out [this article](https://hungryminds.ca/how-to-start-a-blog-or-personal-website-using-jekyll-and-github-pages/).
 
@@ -6,7 +6,7 @@ Lagrange is a minimalist Jekyll theme for running a personal blog or site for fr
 
 ## Notable features
 
-* Compatible with GitHub Pages.
+* Made 4 GitHub Pages.
 
 * Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
 
@@ -52,7 +52,7 @@ Lagrange is a minimalist Jekyll theme for running a personal blog or site for fr
 
 ## Introduction
 
-Lagrange is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
+Lagrange is a Jekyll based theme that was built to be 100% compatible with [GitHub Pages](https://github.io). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
 
 ### What is Jekyll?
 
@@ -80,8 +80,6 @@ If you are familiar with Jekyll, then the Lagrange directory structure shouldn't
 
 ```bash
 Lagrange/
-├── _data                      # Data files
-|  └── settings.yml            # Theme settings and custom text
 ├── _includes                  # Theme includes
 ├── _layouts                   # Theme layouts (see below for details)
 ├── _posts                     # Where all your posts will go
@@ -107,7 +105,7 @@ To completely start from scratch, simply delete all the files in the `_posts`, `
 
 ### Sample Posts
 
-Visit the [the demo site](https://lenpaul.github.io/Lagrange/) to find sample posts that show what different types of text formatting look like. You can find these posts in the `_posts` folder, which show what the best practices for setting up your own site are.
+Visit the [the demo site](https://luqaska.github.io/Lagranjoon/) to find sample posts that show what different types of text formatting look like. You can find these posts in the `_posts` folder, which show what the best practices for setting up your own site are.
 
 ### Site Variables
 
@@ -169,11 +167,15 @@ Lagrange was designed to be a minimalist theme in order for the focus to remain 
 
 ### Disqus
 
-Lagrange supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_data/settings.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
+Lagranjoo supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_config.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
+
+### Utterances
+
+[Utterances](https://utteranc.es) is a service like Disqus, but powered by GitHub Issues. You'll need a GitHub account to use this.
 
 ### Google Analytics
 
-It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `settings.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/). Note: If you are not using Google Analytics, please change `google-ID` to an empty string.
+It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `_config.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/). Note: If you are not using Google Analytics, please change `google-ID` to an empty string.
 
 ### RSS Feeds
 
@@ -185,7 +187,7 @@ To use RSS 2.0, ensure the following is done:
 
 * Uncomment the last two lines in the `_config.yml` file.
 
-* In `_data/settings.yml`, under 'social', comment out the rss-square that points to `feed.xml`, and uncomment the rss-square that points to `rss-feed.xml`.
+* In `_config.yml`, under 'social', comment out the rss-square that points to `feed.xml`, and uncomment the rss-square that points to `rss-feed.xml`.
 
 * In `_includes/head.html`, comment out `{% feed_meta %}` and uncomment the line under the RSS 2.0 comment.
 
@@ -209,9 +211,9 @@ As always, Jekyll offers support for GitHub Flavored Markdown, which allows you 
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-talk]: https://talk.jekyllrb.com
 
 ## Contributing
 
@@ -229,7 +231,7 @@ This theme is completely free and open source software. You may use it however y
 
 #### Paul Le
 
-* [www.lenpaul.com](http://lenpaul.com)
+* [www.lenpaul.com](https://lenpaul.com)
 
 * [Twitter](https://twitter.com/paululele)
 
@@ -267,11 +269,19 @@ This theme is completely free and open source software. You may use it however y
 
 * [borting](https://github.com/borting)
 
-### Icons + Demo Images
+### Forker
 
-* [Death to Stock](https://deathtothestockphoto.com/)
+#### Luqaska
 
-* [Font Awesome](http://fontawesome.io/)
+* [Web](https://luqaska.github.io)
+
+### Icons + 404 page's video + Demo Images
+
+* [Death to Stock](https://deathtothestockphoto.com)
+
+* [Motionstock](https://pixabay.com/users/motionstock-13298494/)
+
+* [Font Awesome](http://forkaweso.me)
 
 ### Other
 
@@ -283,4 +293,4 @@ This theme is completely free and open source software. You may use it however y
 
 ## License
 
-Open sourced under the [MIT license](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md).
+Open sourced under the [MIT license](https://github.com/luqaska/Lagranjoo/blob/gh-pages/LICENSE).
