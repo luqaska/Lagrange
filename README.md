@@ -12,7 +12,7 @@ Lagrange is a minimalist Jekyll theme for running a personal blog or site for fr
 
 * [Google Analytics](https://www.google.com/analytics/) support.
 
-* Commenting support powered by [Disqus](https://disqus.com/).
+* Commenting support powered by [Disqus](https://disqus.com) or [GitHub](https://github.com) (via [Utterances](https://utteranc.es)).
 
 * Optimized for search engines.
 
@@ -38,12 +38,13 @@ Lagrange is a minimalist Jekyll theme for running a personal blog or site for fr
 4. [Features](#features)
    1. [Design Considerations](#design-considerations)
    2. [Disqus](#disqus)
-   3. [Google Analytics](#google-analytics)
-   4. [RSS Feeds](#rss-feeds)
-   5. [Social Media Icons](#social-media-icons)
-   6. [MathJax](#mathjax)
-   7. [Syntax Highlighting](#syntax-highlighting)
-   8. [Markdown](#markdown)
+   3. [Utterances](#utterances)
+   4. [Google Analytics](#google-analytics)
+   5. [RSS Feeds](#rss-feeds)
+   6. [Social Media Icons](#social-media-icons)
+   7. [MathJax](#mathjax)
+   8. [Syntax Highlighting](#syntax-highlighting)
+   9. [Markdown](#markdown)
 5. [Everything Else](#everything-else)
 6. [Contributing](#Contributing)
 7. [Questions?](#questions)
@@ -91,8 +92,8 @@ Lagrange/
 ├── menu                       # Menu pages
 ├── _config.yml                # Site build settings
 ├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
-├── index.md                   # Home page
-├── LICENSE.md                 # License for this theme
+├── index.html                 # Home page
+├── LICENSE                    # License for this theme
 ├── README.md                  # Includes all of the documentation for this theme
 └── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
 ```
