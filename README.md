@@ -281,7 +281,7 @@ This theme is completely free and open source software. You may use it however y
 
 * [11ty's Screenshot API](https://github.com/11ty/api-screenshot)
 
-* [Motionstock](https://pixabay.com/users/motionstock-13298494/)
+* [BlenderTime](https://pixabay.com/users/blendertimer-9538909/)
 
 * [Fork Awesome](http://forkaweso.me)
 
