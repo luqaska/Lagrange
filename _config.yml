@@ -49,11 +49,10 @@ google-ID: '' # If you are not using Google Analytics, please change 'google-ID'
 
 # Menu
 menu:
-- {name: 'Home',        url: '{{ site.github.url }}/'}
-- {name: 'About',       url: '{{ site.github.url }}/about.html'}
-- {name: 'Writing',     url: '{{ site.github.url }}/writing.html'}
-- {name: 'Contact',     url: '{{ site.github.url }}/contact.html'}
-- {name: 'Source Code', url: 'https://github.com/luqaska/Lagranjoon'}
+- {name: 'Home',        url: ''}
+- {name: 'About',       url: 'about'}
+- {name: 'Writing',     url: 'writing'}
+- {name: 'Contact',     url: 'contact'}
 ## Icons
 ### Available social icons are powered by Fork Awesome, so you can use any icon that they offer
 social:
