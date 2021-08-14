@@ -1,8 +1,8 @@
 # Lagranjoon
 
-Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/). For a guide on how to start a blog or personal website using Jekyll and GitHub Pages, please check out [this article](https://hungryminds.ca/how-to-start-a-blog-or-personal-website-using-jekyll-and-github-pages/).
+Lagranjoon is a minimalist Jekyll theme for running a personal blog or site for free through [GitHub Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/). For a guide on how to start a blog or personal website using Jekyll and GitHub Pages, please check out [this article](https://hungryminds.ca/how-to-start-a-blog-or-personal-website-using-jekyll-and-github-pages/).
 
-![alt text](https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png "Lagrange Demo Image")
+![alt text](https://v1.screenshot.11ty.dev/https%3A%2F%2Fluqaska.github.io%2FLagranjoon%2F "Lagranjoon Demo Image")
 
 ## Notable features
 
@@ -16,7 +16,7 @@ Lagrange is a minimalist Jekyll theme for running a personal blog or site for fr
 
 * Optimized for search engines.
 
-* LaTeX support through [MathJax](https://www.mathjax.org/).
+* LaTeX support through [MathJax](https://www.mathjax.org).
 
 ## Table of Contents
 
@@ -80,7 +80,7 @@ For a full local installation of Lagrange, [download your own copy of Lagrange](
 If you are familiar with Jekyll, then the Lagrange directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
 
 ```bash
-Lagrange/
+Lagranjoon/
 ├── _includes                  # Theme includes
 ├── _layouts                   # Theme layouts (see below for details)
 ├── _posts                     # Where all your posts will go
@@ -164,11 +164,11 @@ image:
 
 ### Design Considerations
 
-Lagrange was designed to be a minimalist theme in order for the focus to remain on your content. For example, links are signified mainly through an underline text-decoration, in order to maximize the perceived affordance of clickability (I originally just wanted to make the links a darker shade of grey).
+Lagranjoon was designed to be a minimalist theme in order for the focus to remain on your content. For example, links are signified mainly through an underline text-decoration, in order to maximize the perceived affordance of clickability (I originally just wanted to make the links a darker shade of grey).
 
 ### Disqus
 
-Lagranjoo supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_config.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
+Lagranjoon supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_config.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
 
 ### Utterances
 
@@ -278,20 +278,20 @@ This theme is completely free and open source software. You may use it however y
 
 ### Icons + 404 page's video + Demo Images
 
-* [Death to Stock](https://deathtothestockphoto.com)
+* [11ty's Screenshot API](https://github.com/11ty/api-screenshot)
 
 * [Motionstock](https://pixabay.com/users/motionstock-13298494/)
 
-* [Font Awesome](http://forkaweso.me)
+* [Fork Awesome](http://forkaweso.me)
 
 ### Other
 
-* [Jekyll](https://jekyllrb.com/)
+* [Jekyll](https://jekyllrb.com)
 
 * [Free Code Camp](https://www.freecodecamp.org)
 
-* [Khan Academy](https://www.khanacademy.org/)
+* [Khan Academy](https://www.khanacademy.org)
 
 ## License
 
-Open sourced under the [MIT license](https://github.com/luqaska/Lagranjoo/blob/gh-pages/LICENSE).
+Open sourced under the [MIT license](https://github.com/luqaska/Lagranjoon/blob/gh-pages/LICENSE).
