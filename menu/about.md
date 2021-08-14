@@ -12,7 +12,7 @@ Lagrange is a minimalist Jekyll theme. The purpose of this theme is to provide a
 
 ### Example Content
 
-[Text and Formatting]({{ site.github.url }}text-formatting-examples)
+[Text and Formatting]({{ site.github.url }}/text-formatting-examples)
 
 ### Questions?
 
