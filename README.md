@@ -1,6 +1,6 @@
 # Lagranjoon
 
-Lagranjoon is a minimalist Jekyll theme for running a personal blog or site for free through [GitHub Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/). For a guide on how to start a blog or personal website using Jekyll and GitHub Pages, please check out [this article](https://hungryminds.ca/how-to-start-a-blog-or-personal-website-using-jekyll-and-github-pages/).
+Lagranjoon is a minimalist Jekyll theme for running a personal blog or site for free through [GitHub Pages](https://github.io), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://luqaska.github.io/Lagranjoon/). For a guide on how to start a blog or personal website using Jekyll and GitHub Pages, please check out [this article](https://hungryminds.ca/how-to-start-a-blog-or-personal-website-using-jekyll-and-github-pages/).
 
 ![alt text](https://v1.screenshot.11ty.dev/https%3A%2F%2Fluqaska.github.io%2FLagranjoon%2F "Lagranjoon Demo Image")
 
@@ -93,6 +93,7 @@ Lagranjoon/
 ├── _config.yml                # Site build settings
 ├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
 ├── index.html                 # Home page
+├── lagranjoon.gemspec         # Ruby package
 ├── LICENSE                    # License for this theme
 ├── README.md                  # Includes all of the documentation for this theme
 └── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
@@ -139,9 +140,9 @@ title: "Example Post"
 
 Examples of what posts looks like can be found in the `_posts` directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.
 
-Pages are essentially the post layout without any of the extra features of the posts layout. An example of what pages look like can be found at the [About](https://lenpaul.github.io/Lagrange/menu/about.html) and [Contacts](https://lenpaul.github.io/Lagrange/menu/contact.html).
+Pages are essentially the post layout without any of the extra features of the posts layout. An example of what pages look like can be found at the [About](https://luqaska.github.io/Lagranjoon/menu/about.html) and [Contacts](https://lenpaul.github.io/Lagrange/menu/contact.html).
 
-In addition to the two main layout options above, there are also custom layouts that have been created for the [home page](https://lenpaul.github.io/Lagrange/) and the [archives page](https://lenpaul.github.io/Lagrange/menu/writing.html). These are simply just page layouts with some [Liquid template code](https://shopify.github.io/liquid/). Check out the `index.html` file in the root directory for what the code looks like.
+In addition to the two main layout options above, there are also custom layouts that have been created for the [home page](https://luqaska.github.io/Laranjoon/) and the [archives page](https://luqaska.github.io/Lagranjoon/menu/writing.html). These are simply just page layouts with some [Liquid template code](https://shopify.github.io/liquid/). Check out the `index.html` file in the root directory for what the code looks like.
 
 ### YAML Front Block Matter
 
