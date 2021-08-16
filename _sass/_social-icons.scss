@@ -104,9 +104,24 @@
 .fa-stack-overflow {
   padding: 5px;
   @include social-media-icon($stackoverflow-color, $icon-transition-time);
-}/*
-$vimeo-color:          #2ab7e7;
-$twitch-color:         #9147ff;
-$yc-color:             #fb6518;
-$youtube-color:        #ff0000;
-$yelp-color:           #bf2519;*/
+}
+.fa-vimeo, .fa-vimeo-v, .fa-vimeo-square {
+  padding: 5px;
+  @include social-media-icon($vimeo-color, $icon-transition-time);
+}
+.fa-twitch {
+  padding: 5px;
+  @include social-media-icon($twitch-color, $icon-transition-time);
+}
+.fa-yc, .fa-yc-square, .fa-y-combinator, .fa-y-combinator-square, .fa-hacker-news {
+  padding: 5px;
+  @include social-media-icon($yc-color, $icon-transition-time);
+}
+.fa-youtube, .fa-youtube-square, .fa-youtube-play {
+  padding: 5px;
+  @include social-media-icon($youtube-color, $icon-transition-time);
+}
+.fa-yelp {
+  padding: 5px;
+  @include social-media-icon($yelp-color, $icon-transition-time);
+}
