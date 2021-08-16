@@ -21,53 +21,92 @@
   padding: 5px;
   @include social-media-icon($envelope-color, $icon-transition-time);
 }
-
 .fa-twitter {
   padding: 5px;
   @include social-media-icon($twitter-color, $icon-transition-time);
 }
-
 .fa-instagram {
   padding: 5px;
   @include social-media-icon($instagram-color, $icon-transition-time);
 }
-
 .fa-github {
   padding: 5px;
   @include social-media-icon($github-color, $icon-transition-time);
 }
-
 .fa-linkedin {
   padding: 5px;
   @include social-media-icon($linkedin-color, $icon-transition-time);
 }
-
 .fa-facebook {
   padding: 5px;
   @include social-media-icon($facebook-color, $icon-transition-time);
 }
-
 .fa-pinterest {
   padding: 5px;
   @include social-media-icon($pinterest-color, $icon-transition-time);
 }
-
 .fa-medium {
   padding: 5px;
   @include social-media-icon($medium-color, $icon-transition-time);
 }
-
 .fa-codepen {
   padding: 5px;
   @include social-media-icon($codepen-color, $icon-transition-time);
 }
-
 .fa-rss-square {
   padding: 5px;
   @include social-media-icon($rss-color, $icon-transition-time);
 }
-
-.fa-telegram {
+.fa-telegram, .fa-paper-plane, .fa-paper-plane-o, .fa-send, .fa-send-o {
   padding: 5px;
   @include social-media-icon($telegram-color, $icon-transition-time);
 }
+.fa-mastodon, .fa-mastodon-alt, .mastodon-square {
+  padding: 5px;
+  @include social-media-icon($mastodon-color, $icon-transition-time);
+}
+.fa-circle-o {
+  padding: 5px;
+  @include social-media-icon($koyu-color, $icon-transition-time);
+}
+.fa-keybase {
+  padding: 5px;
+  @include social-media-icon($keybase-color, $icon-transition-time);
+}
+.fa-friendica {
+  padding: 5px;
+  @include social-media-icon($friendica-color, $icon-transition-time);
+}
+.fa-pleroma {
+  padding: 5px;
+  @include social-media-icon($pleroma-color, $icon-transition-time);
+}
+.fa-patreon {
+  padding: 5px;
+  @include social-media-icon($patreon-color, $icon-transition-time);
+}
+.fa-liberapay, .fa-liberapay-square {
+  padding: 5px;
+  @include social-media-icon($liberapay-color, $icon-transition-time);
+}
+.fa-paypal {
+  padding: 5px;
+  @include social-media-icon($paypal-color, $icon-transition-time);
+}
+.fa-steam, .fa-steam-square {
+  padding: 5px;
+  @include social-media-icon($steam-color, $icon-transition-time);
+}
+.fa-vk {
+  padding: 5px;
+  @include social-media-icon($vk-color, $icon-transition-time);
+}
+.fa-stack-overflow {
+  padding: 5px;
+  @include social-media-icon($stackoverflow-color, $icon-transition-time);
+}/*
+$vimeo-color:          #2ab7e7;
+$twitch-color:         #9147ff;
+$yc-color:             #fb6518;
+$youtube-color:        #ff0000;
+$yelp-color:           #bf2519;*/
