@@ -6,7 +6,7 @@
     var sjs = SimpleJekyllSearch({
       searchInput: document.getElementById('nav-search-input'),
       resultsContainer: document.getElementById('search-results-container'),
-      json: "/search.json"
+      json: "{{ site.github.url }}/search.json"
     });
   </script>
   <noscript>The search engine needs JS to work</noscript>
